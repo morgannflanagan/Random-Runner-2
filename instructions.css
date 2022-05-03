@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(95, 51, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 0;
+}
+
+.nav {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(165, 130, 87);
+}
+.active {
+  background-color: rgb(165, 130, 87);
+}
+body {
+  background-color:rgb(212, 161, 102);
+  color: rgb(95, 51, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+.description{
+font-size: 14px;
+}
+img {
+float: right;
+width: 350px;
+padding-right: 300px;
+padding-left: 85px;
+padding-top: 60px;
+}
+.header{
+text-align: center;
+}
